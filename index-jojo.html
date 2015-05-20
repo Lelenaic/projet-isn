@@ -2,17 +2,82 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<link rel="stylesheet" type="text/css" href="style.css" media="all"/>
-		<title> I want to play a game...</title>
+		<title> Mastermind</title>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+		<script type="text/javascript" src="js/noty/packaged/jquery.noty.packaged.min.js"></script>
 	</head>
-	<body>
-		
-    <script type="text/javascript" src="fonction-jojo.js"> </script>
-
-	<button onclick="jeu()">Start the game</button>
-	
-	<p id="nombrerandom"></p>
+	<script type="text/javascript" src="fonction-jojo.js"> </script>
+	<button onclick="jeu()">Démarrer le jeu !</button><br><br>
+	Si rien ne se lance, veuillez mettre à jour votre navigateur pour que les boites de dialogue puissent apparaitre.</br>
+	Attention : Ne cochez jamais la case : "Empêcher cette page de générer des boîtes de dialogue supplémentaires" sinon le jeu ne pourra pas continuer et s'arrêtera.</br>
+	Les règles sont celles du MasterMind classique (<a href="http://fr.wikipedia.org/wiki/Mastermind" target="_blank"  >Lien de la page Mastermind sur Wikipédia</a>).</br>
+	A chaque combinaison tentée, seront affichés les chiffres bien placés et les juste mais mal placés. Si rien ne s'affiche, le chiffre est faux.</br>
+	Lorsque le jeu sera fini, la page se rechargera automatiquement.
+	<!-- cette partie sert à afficher les différentes réponses proposées par le joueur au fil des éssais et aussi les pions bien placés, mal placés et bons mais au mauvais endroit -->
 	<br /><hr /><br />
-	<p id="chiffre1"></p>
-	<p id="chiffre2"></p>
+	<h3><p id="1.5"></p></h3>
+	<p id="1"></p>
+	<p id="1.1"></p>
+	<p id="1.2"></p>
+	<p id="1.3"></p>
+	<p id="1.4"></p>
+    <h3><p id="2.5"></p></h3>
+	<p id="2"></p>
+	<p id="2.1"></p>
+	<p id="2.2"></p>
+	<p id="2.3"></p>
+	<p id="2.4"></p>
+    <h3><p id="3.5"></p></h3>
+	<p id="3"></p>
+	<p id="3.1"></p>
+	<p id="3.2"></p>
+	<p id="3.3"></p>
+	<p id="3.4"></p>
+    <h3><p id="4.5"></p></h3>
+	<p id="4"></p>
+	<p id="4.1"></p>
+	<p id="4.2"></p>
+	<p id="4.3"></p>
+	<p id="4.4"></p>
+    <h3><p id="5.5"></p></h3>
+	<p id="5"></p>
+	<p id="5.1"></p>
+	<p id="5.2"></p>
+	<p id="5.3"></p>
+	<p id="5.4"></p>
+    <h3><p id="6.5"></p></h3>
+	<p id="6"></p>
+	<p id="6.1"></p>
+	<p id="6.2"></p>
+	<p id="6.3"></p>
+	<p id="6.4"></p>
+    <h3><p id="7.5"></p></h3>
+	<p id="7"></p>
+	<p id="7.1"></p>
+	<p id="7.2"></p>
+	<p id="7.3"></p>
+	<p id="7.4"></p>
+    <h3><p id="8.5"></p></h3>
+	<p id="8"></p>
+	<p id="8.1"></p>
+	<p id="8.2"></p>
+	<p id="8.3"></p>
+	<p id="8.4"></p>
+    <h3><p id="9.5"></p></h3>
+	<p id="9"></p>
+	<p id="9.1"></p>
+	<p id="9.2"></p>
+	<p id="9.3"></p>
+	<p id="9.4"></p>
+    <h3><p id="10.5"></p></h3>
+	<p id="10"></p>
+	<p id="10.1"></p>
+	<p id="10.2"></p>
+	<p id="10.3"></p>
+	<p id="10.4"></p>
+<footer>
+	<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">Projet ISN : Mastermind en javascript</span> de <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Jordan et Lénaïc</span> est mis à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">licence Creative Commons Attribution - Pas d’Utilisation Commerciale 4.0 International</a>.
+	<!-- footer contenant la licence -->
+</footer>
 	</body>
 </html>
