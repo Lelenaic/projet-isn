@@ -1,0 +1,11 @@
+footer {
+	text-align:center;
+    position: absolute;
+    bottom: 2px;
+}
+
+.titre {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
